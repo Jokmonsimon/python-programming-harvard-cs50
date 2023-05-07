@@ -9,7 +9,7 @@ print(type(z))
 print("-------------------------------------------------------")
 
 # Ask user to input float values
-x = float(input("Enter the2.4 value x: "))
+x = float(input("Enter the value x: "))
 y = float(input("Enter the value y: "))
 z = x + y
 
@@ -24,3 +24,8 @@ print(z)
 print(f"{z:,}")
 print(type(z))
 print("-------------------------------------------------------")
+
+# ROund to nearest digit after Division
+z = round(x / y, 3)
+print(z)
+print(f"{z:.3f}")
